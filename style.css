@@ -1,5 +1,7 @@
 /* Charcoal #101820, Yellow #FEE715 */
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@1&display=swap');
+
 *{
     padding: 0;
     margin:0;
@@ -47,27 +49,29 @@ h1{
     padding-left: 2%;
     padding-bottom: 2%;
 }
-.bg2{
-    height: 40vh;
+.bg1{
+    height: 20vh;
     background-color: #101820;
+    background-image:linear-gradient(to  top, black 30%, white);
+}
+.bg2{
+    height: 80vh;
+    background-color: black;
+    /* display: inline-block; */
     
 }
-.logo{
-   border-radius: 100%;
-   height:60vh;
+.back{
+  height: 80vh;
+  position: relative;
+  right: 85vh;
+  display: inline-block;
 }
-.bg3{
-    background-image: url("ferrGIF.webp");
-     height: 40vh;
-    /* width: 100vw;  */
-    background-repeat: no-repeat;
-    background-image: cover;
-    
-    
-}
-.div3{
-    background-color: #FEE715;
-    background-image: linear-gradient(to left, #FEE715,#FFFFFF);
-    z-index: 10
-    /* WHY TF ITS NOT WORKING */
+.ferarri{
+    /* display: inline-block; */
+    color: goldenrod;
+    font-size: 500%;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    position: relative;
+    top: 10px;
+    /* bottom: 1px; */
 }
