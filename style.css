@@ -48,6 +48,7 @@ h1{
 .para1{
     padding-left: 2%;
     padding-bottom: 2%;
+    margin-right: 56%;
 }
 .bg1{
     height: 20vh;
@@ -57,7 +58,8 @@ h1{
 .bg2{
     height: 80vh;
     background-color: black;
-    /* display: inline-block; */
+    display: flex;
+    position: relative;
     
 }
 .back{
@@ -71,7 +73,8 @@ h1{
     color: goldenrod;
     font-size: 500%;
     font-family: 'Tiro Devanagari Hindi', serif;
-    position: relative;
-    top: 10px;
+    position: absolute;
+    top: 40%;
+    left: 75%;
     /* bottom: 1px; */
 }
